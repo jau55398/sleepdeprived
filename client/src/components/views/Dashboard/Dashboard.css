@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+.menu {
+  padding: 0 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.menu__container .ant-menu-item a,
+.menu__container .ant-menu-submenu-title a {
+  padding: 10px 15px;
+}
+
+.menu__container .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.menu__container .menu_right {
+  float: right;
+}
+
+

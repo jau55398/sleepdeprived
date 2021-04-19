@@ -1,0 +1,168 @@
+/*CREATE ACCOUNT FORM CSS*/
+.form {
+    padding-top: 40px;
+    margin-bottom: 4px;
+}
+.form-inputs p {
+    color: red;
+    margin-left: 30%;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.form-label1 {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 31%;
+  }
+
+.form-label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 31%;
+    margin-top: 30px;
+}
+  
+.form-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: 8px;*/
+    padding-left: 10px;
+    outline: black;
+    height: 40px;
+    width: 40%;
+  }
+
+.form-input-btn {
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 2px;
+    /*background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );*/
+    background: black;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.bottom-form {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*CONTACT FORM CSS*/
+
+.contact-label1 {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 30%;
+}
+
+.contact-label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 30%;
+    margin-top: 8px;
+}
+
+.contact-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: 8px;*/
+    padding-left: 10px;
+    outline: black;
+    border-radius: 2px;
+    height: 40px;
+    width: 40%;
+}
+
+.contact-msg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    outline: black;
+    border-radius: 2px;
+    height: 40px;
+    width: 40%;
+}
+
+.contact-btn {
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: black;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+/*LOGIN FORM CSS*/
+
+.upload-label1 {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 31%;
+    margin-top: 30px;
+}
+
+.upload-label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 31%;
+}
+
+.upload-label-right {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 14%;
+}
+
+.upload-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    border-radius: 2px;
+    outline: black;
+    height: 40px;
+    width: 40%;
+  }
+
+/* Tracking */
+
+.track-label{
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 30%;
+}
+
+.trackbox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    outline: black;
+    border-radius: 2px;
+    height: 40px;
+    width: 63.2%;
+}
+
+.trackbtn{
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: black;
+    outline: none;
+    border: none;
+    color: #fff;
+}

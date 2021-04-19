@@ -1,0 +1,117 @@
+/*CSS Method for the whole webpage*/
+.app {
+  height: 100vh;
+  /*background: lightblue;*/
+}
+
+/*Method used in AppButton.js to move the buttons
+on to the right side of the page*/
+.rightside{
+  text-align: right;
+  padding-right: 30px;
+}
+
+/*Method used in AppButton.js to move give each
+button space from eachother*/
+.buttondivider{
+  margin-right: 40px;
+}
+/*Method used in App.js to divide the log in
+button with the create account button*/
+.loginbuttondivider{
+  margin-right: 10px;
+}
+
+/*Method used in App.js to divide the create
+account button with the cart button*/
+.createdivider{
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+/*Method used in App.js to divide the buttons
+on the top of the page from the top*/
+.toppadding{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/*Method used in App.js to give space between
+search/currency button from the logo*/
+.logopadding{
+  padding-top:0px
+}
+
+/*Method used in App.js to make changes to the 
+home images*/
+.homeimg {
+  text-align: center;
+  padding-top: 20px
+}
+
+/*Method used in App.js, "img" is at the behind
+the class name so it changes all the images within
+the div block*/
+.homeimg img{
+  width: 500px;
+  height: auto;
+  display: inline-bock;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 35px;
+}
+
+.pageformat{
+  text-align: center;
+  padding-top: 40px;
+}
+
+/*Important note: when width was using '#px' when you
+minimize the screen the images would move according to
+the screen size, therefore using '#%' helps with that issue
+and now the images move according to the screen size.*/
+.productimage{
+  margin: auto;
+  width: 75%;
+  /*border: 1px solid black;*/
+  text-align: center;
+  padding-top: 40px
+}
+
+.productimage img{
+  width: 350px;
+  height: auto;
+  display: inline-bock;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+/*Buttons*/
+/* just testing rollover */
+a:link, a:visited, a:active {
+  /*background-color: #f44336;
+  padding: 14px 25px;
+  
+  text-decoration: none;
+  display: inline-block;*/
+  color: black;
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(99, 99, 99);
+}
+
+.button {
+  background-color: black;
+  color: white;
+  /*border-radius: 8px;*/ /*doesn't match other buttons*/
+  padding: 10px 25px;
+}
