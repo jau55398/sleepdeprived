@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Dropzone from 'react-dropzone'
-import {CloudUploadOutlined} from '@ant-design/icons';
 import Axios from 'axios'
 
 
@@ -61,7 +60,7 @@ function FileUpload(props) {
                         <input {...getInputProps()} />
 
 
-                        <CloudUploadOutlined style={{ fontSize: '3rem' }} />
+                        <div style={{ fontSize: '3rem' }} />
 
 
                     </div>

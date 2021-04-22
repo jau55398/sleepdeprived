@@ -4,7 +4,7 @@ import { loginUser } from "../../../_actions/user_actions";
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { Form, Checkbox, Typography } from 'antd';
-import Icon from '@ant-design/icons';
+import { Icon } from '@ant-design/compatible';
 import { useDispatch } from "react-redux";
 import '../../App.css';
 import '../../Form.css';
